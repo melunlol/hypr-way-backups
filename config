@@ -1,0 +1,27 @@
+{
+"layer": "top",
+"position": "top",
+"height": 34,
+"width": 1366,
+"modules-left": ["hyprland/workspaces"],
+"modules-center": ["clock"],
+"modules-right": ["network","cpu","memory","battery","tray","clock"],
+"tray": {
+"icon-size": 21,
+"spacing": 10,
+}
+,"clock": {
+"format-alt": "{:%Y-%m-%d}" }
+,"cpu": {
+"format": "{usage}%" }
+,"memory": {
+"format": "{}%"} }
+"battery": {
+"bat": "BAT0",
+"states": {
+"good": 95,
+"warning": 30,
+"critical": 15 }
+}
+
+}
