@@ -1,2 +1,2 @@
 baseline stable configs //
-if found, dont use (very ugly)
+dont install, may cause breakages
